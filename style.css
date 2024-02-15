@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #D1D5DB;
+    --heading: #F9FAFB;
+    --bg-primary: #030712;
+    --bg-secondary: #111827;
+    --bg-heading: #374151;
+}
+
+html, body {
+    background: #030712;
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+    /** MENU **/
+.topbar {
+    padding: 16px 0;
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 52px;
+}
+
+.nav-item {
+    display: none;
+    font-weight: 500;
+}
+
+.nav-link {
+    display: block;
+    margin: 16px 0;
+}
+
+.btn {
+    display: block;
+    background: var(--heading);
+    color: var(--bg-primary);
+    font-weight: 500;
+    text-align: center;
+    border-radius: 12px;
+}
+    /** WELCOME PAGE **/
+
+.welcome {
+    padding: 64px 0;
+}
+
+.profil {
+    display: block;
+    margin: 0 auto;
+}
+
+.availability {
+    margin-top: 48px;
+}
+
+.availability > div {
+    margin-bottom: 8px;
+}
+
+.availability > div::before {
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+}
+
+.availability > .location::before {
+    background: url("./assets/icon/location.svg");
+}
+
+.availability > .status::before {
+    background: url("./assets/icon/green-dot.svg");
+}
+
+.social {
+    margin-top: 48px;
+}
+    /******* TABLET *********/
+
+@media screen and (min-width:768px) {
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -2%;
+    }
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-link {
+        margin: 0 8px;
+        padding: 6px 16px;
+    }
+
+    .welcome {
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .welcome div {
+        width: 90%;
+    }
+    
+    .profil {
+        display: block;
+        width: 280px;
+        margin: 0 auto;
+        order: 1;
+    }
+    
+  
+}
+
+/******* DESKTOP *********/
+
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 60px;
+        line-height: 72px;
+    }
+}
