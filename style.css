@@ -35,6 +35,19 @@ h1 {
     margin-bottom: 8px;
 }
 
+h2 {
+    width: fit-content;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: var(--text);
+    background: var(--bg-heading);
+    border-radius: 12px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px 20px;
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -108,7 +121,17 @@ h1 {
 .social {
     margin-top: 48px;
 }
-    /******* TABLET *********/
+
+        /** ABOUT PAGE **/
+#about {
+    background: var(--bg-secondary);
+}
+
+#about img {
+    display: block;
+    width: 280px;
+}
+/******* TABLET *********/
 
 @media screen and (min-width:768px) {
 
