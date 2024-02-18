@@ -44,8 +44,25 @@ h2 {
     background: var(--bg-heading);
     border-radius: 12px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 16px;
     padding: 4px 20px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -2%;
+    font-weight: 600;
+    color: var(--heading);
+    margin-bottom: 24px;
+}
+
+section {
+    padding: 64px 0;
+}
+
+section p {
+    margin-bottom: 16px;
 }
 
 .container {
@@ -83,7 +100,7 @@ h2 {
 }
     /** WELCOME PAGE **/
 
-.welcome {
+.flex {
     padding: 64px 0;
 }
 
@@ -130,6 +147,7 @@ h2 {
 #about img {
     display: block;
     width: 280px;
+    margin: 24px auto 48px;
 }
 /******* TABLET *********/
 
@@ -158,14 +176,14 @@ h2 {
         padding: 6px 16px;
     }
 
-    .welcome {
+    .flex {
         padding: 30px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .welcome div {
+    .flex div {
         width: 80%;
     }
     
@@ -187,4 +205,5 @@ h2 {
         font-size: 60px;
         line-height: 72px;
     }
+
 }
