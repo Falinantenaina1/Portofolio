@@ -152,6 +152,12 @@ section p {
 
         /** SKILLS **/
 
+#skills p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
 
 .languages {
     display: flex;
