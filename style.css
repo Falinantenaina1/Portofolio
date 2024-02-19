@@ -101,7 +101,7 @@ section p {
     /** WELCOME PAGE **/
 
 .flex {
-    padding: 64px 0;
+    padding: 30px 0;
 }
 
 .profil {
@@ -147,7 +147,7 @@ section p {
 #about img {
     display: block;
     width: 280px;
-    margin: 24px auto 48px;
+    margin: 10px auto 48px;
 }
 
         /** SKILLS **/
