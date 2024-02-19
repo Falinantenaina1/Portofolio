@@ -154,8 +154,8 @@ section p {
 
 #skills p {
     text-align: center;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     font-weight: 400;
 }
 
@@ -218,6 +218,19 @@ section p {
         margin: 0 auto;
         order: 1;
     }
+
+    .languages {
+        justify-content: start;
+    }
+        
+    .tech {
+        width: 25%;
+        margin-top: 30px;
+    }
+    
+    .tech-name {
+        margin-top: 8px;
+    }
     
   
 }
@@ -229,6 +242,12 @@ section p {
     h1 {
         font-size: 60px;
         line-height: 72px;
+    }
+
+
+    .tech {
+        width: 20%;
+        margin-top: 30px;
     }
 
 }
