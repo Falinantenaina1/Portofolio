@@ -267,6 +267,12 @@ section p {
     .tech-name {
         margin-top: 8px;
     }
+
+    .project-card {
+        display: flex;
+        align-items: center;
+    }
+    
     
   
 }
@@ -279,7 +285,6 @@ section p {
         font-size: 60px;
         line-height: 72px;
     }
-
 
     .tech {
         width: 20%;
