@@ -110,7 +110,7 @@ section p {
 }
 
 .availability {
-    margin-top: 48px;
+    margin: 48px 0;
     color: var(--heading);
 }
 
@@ -133,10 +133,6 @@ section p {
 
 .availability > .status::before {
     background: url("./assets/icon/green-dot.svg");
-}
-
-.social {
-    margin-top: 48px;
 }
 
         /** ABOUT PAGE **/
@@ -208,6 +204,36 @@ section p {
     font-weight: 600;
     color: var(--heading);
     margin-bottom: 24px;
+}
+
+        /** CONTATCT **/
+
+.contact-info {
+    text-align: center;
+    color: var(--heading);
+    font-weight: 600;
+}
+
+.contact-info > p::before {
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+
+.contact-info > .mail::before {
+    background: url("./assets/icon/email.svg");
+}
+
+.contact-info > .phone::before {
+    background: url("./assets/icon/phone.svg");
+}
+
+.other {
+    text-align: center;
 }
 
 /******* TABLET *********/
@@ -307,6 +333,10 @@ section p {
     .tech {
         width: 20%;
         margin-top: 30px;
+    }
+
+    .project-card {
+        margin-top: 50px;
     }
 
 }
