@@ -271,10 +271,12 @@ section p {
     .project-card {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-areas: "a b";
     }
 
     .project-img {
         border-radius: 12px 0  0 12px;
+        padding: px;
     }
 
     .project-img > img {
@@ -285,6 +287,11 @@ section p {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .project > .project-card:nth-child(odd) > .project-img {
+        grid-area: b;
+        border-radius: 0 12px 12px 0;
     }
 }
 
