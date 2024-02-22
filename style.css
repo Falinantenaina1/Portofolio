@@ -269,12 +269,23 @@ section p {
     }
 
     .project-card {
-        display: flex;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-    
-    
-  
+
+    .project-img {
+        border-radius: 12px 0  0 12px;
+    }
+
+    .project-img > img {
+        height: 100%;
+    }
+
+    .project-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 /******* DESKTOP *********/
