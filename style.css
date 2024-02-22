@@ -212,9 +212,14 @@ section p {
     text-align: center;
     color: var(--heading);
     font-weight: 600;
+    margin: 24px 0;
 }
 
-.contact-info > p::before {
+.contact-info a {
+    display: block;
+}
+
+.contact-info > a::before {
     content: "";
     display: inline-block;
     margin-right: 8px;
@@ -236,6 +241,12 @@ section p {
     text-align: center;
 }
 
+        /** FOOTER **/
+footer {
+    background: var(--bg-secondary);
+    text-align: center;
+    padding: 24px 8px;
+}
 /******* TABLET *********/
 
 @media screen and (min-width:768px) {
@@ -318,6 +329,10 @@ section p {
     .project > .project-card:nth-child(odd) > .project-img {
         grid-area: b;
         border-radius: 0 12px 12px 0;
+    }
+
+    .contact-info {
+        margin: 48px 0;
     }
 }
 
