@@ -326,7 +326,7 @@ footer {
         justify-content: center;
     }
 
-    .project > .project-card:nth-child(odd) > .project-img {
+    .project > .project-card:nth-child(even) > .project-img {
         grid-area: b;
         border-radius: 0 12px 12px 0;
     }
